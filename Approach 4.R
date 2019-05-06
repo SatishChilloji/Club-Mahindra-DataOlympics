@@ -1,14 +1,3 @@
-remove.packages('catboost') 
-install.packages('devtools')
-library(devtools)
-options(devtools.install.args = c("--no-multiarch", "--no-test-load"))
-
-devtools::install_url('https://github.com/catboost/catboost/releases/download/v0.11.1/catboost-R-Windows-0.11.1.tgz', INSTALL_opts = c("--no-multiarch", "--no-test-load"))
-
-#devtools::install_url('https://github.com/catboost/catboost/releases/download/v0.6.1.1/catboost-R-Windows-0.6.1.1.tgz', args = c("--no-multiarch"))
-
-#devtools::install_url('https://github.com/catboost/catboost/releases/download/v0.7.2/catboost-R-Windows-0.7.2.tgz', args = c("--no-multiarch"))
-
 rm(list = ls())
 options(scipen = 100,digits = 4)
 library(data.table)
