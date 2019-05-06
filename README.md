@@ -6,3 +6,11 @@ In our journey to become a data-driven decision making organization, we invite y
 our flagship hackathon to identify the best talents in the industry to work on challenging business problems.
 
 Problemt statment was given is to predict the expenditure of food and bevrages on every reservation done by the customers. 
+
+Approach to the data:
+Lot of features on date fields,
+id fields,
+number of adults and childrens
+
+Approach to modeling:
+Data is trained on multiple models. Random Forest, Xgboost and Catboot. At the end the catboost end up giving good results.
