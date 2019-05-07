@@ -14,3 +14,8 @@ number of adults and childrens
 
 Approach to modeling:
 Data is trained on multiple models. Random Forest, Xgboost and Catboot. At the end the catboost end up giving good results.
+
+Competition Link:
+https://datahack.analyticsvidhya.com/contest/club-mahindra-dataolympics/?utm_source=sendinblue&utm_campaign=Go_Live_Club_Mahindra_DataOlympics&utm_medium=email
+
+
